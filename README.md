@@ -45,7 +45,18 @@ django-admin startproject core .
 ```
 **.** indica que será criado na mesma pasta
 
+### RODANDO PROJETO
 
+``` bash
+python manage.py runserver
+```
 
+### CRIANDO apps
+
+``` bash
+python manage.py startapp evento
+```
+- cria app com nome **evento**.
+-  **'evento'** é adicionado no bloco **INSTALLED APPS** do arquivo **settings** na pasta **core** para ser reconhecido coomo app.
 
 
