@@ -51,6 +51,8 @@ django-admin startproject core .
 python manage.py runserver
 ```
 
+**Ctrl + C** pausa o servidor.
+
 ### CRIANDO apps
 
 ``` bash
