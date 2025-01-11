@@ -38,11 +38,10 @@ pip install pillow
 
 ### CRIANDO PROJETO
 
-O gerenciador do Django cria o projeto. A pasta **core** sera criada e o arquivo **manage.py**.
+O gerenciador do Django cria o projeto. A pasta **core** é criada e o arquivo **manage.py**.
 
 ``` bash
 django-admin startproject core .
-
 ```
 **.** indica que será criado na mesma pasta
 
