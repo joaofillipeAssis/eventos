@@ -61,4 +61,18 @@ python manage.py startapp evento
 - cria app com nome **evento**.
 -  **'evento'** é adicionado no bloco **INSTALLED APPS** do arquivo **settings** na pasta **core** para ser reconhecido coomo app.
 
+### MIGRAÇÕES
+
+``` bash
+python manage.py makemigrations
+```
+- Informa ao Django como as migrações devem ser executadas conforme arquivo **models.py** 
+
+- Arquivo **0001_initial.py** criado na pasta **migrations**.
+
+##### Salvar no Banco de Dados
+
+``` bash
+python manage.py migrate
+```
 
